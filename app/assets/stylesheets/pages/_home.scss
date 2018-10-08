@@ -31,3 +31,31 @@
   padding: 15px;
   font-size: 24px;
 }
+
+
+//Banner
+
+.banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 70px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 150px;
+  color: $fire-starter;
+  font-family: athelas, serif;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner h2 {
+  color: $cool-down;
+  font-size: 36px;
+  opacity: 0.6;
+  margin-bottom: 30px;
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.2);
+}
