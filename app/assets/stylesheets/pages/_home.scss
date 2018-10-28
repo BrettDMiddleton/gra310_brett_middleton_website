@@ -1,28 +1,31 @@
 // Specific CSS for your home-page
 .wrapper {
   display: flex;
-  background-color: $fire-starter;
+  background-color: black;
+  color: $fire-starter;
 }
 #left-bar {
   flex: 0 0 450px;
-  height: 100vh;
-  position: sticky !important; /* !important to override Gmaps inline CSS */
   top: 0 !important;
   background-color: $cool-down;
+}
+
+#right-bar {
+  flex: 0 0 450px;
+  top: 0 !important;
+  background-color: black;
 }
 
 .header h1 {
   color: $fire-starter;
   font-family: athelas, serif;
   font-size: 144px;
-  padding-left: 10px;
   margin: 0px;
 }
 
 .subheader h2{
   color: $bamboo;
   font-size: 36px;
-  padding-left: 10px;
   margin-top: -10px;
 }
 
@@ -31,7 +34,6 @@
   padding: 15px;
   font-size: 24px;
 }
-
 
 //Banner
 
@@ -48,14 +50,18 @@
   font-size: 150px;
   color: $fire-starter;
   font-family: athelas, serif;
-  padding-right: 200px;
-  padding-bottom: 200px;
+  background-color: black;
+  border-radius: 0px 30px 30px 0px;
+  width: 700px;
+  margin-top: -200px;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
 .banner h2 {
-  color: $cool-down;
-  font-size: 36px;
-  opacity: 0.6;
-  margin-bottom: 30px;
-  text-shadow: 0px 1px rgba(255, 255, 255, 0.2);
+    color: #8a8c8f;
+    font-size: 36px;
+    opacity: 0.6;
+    margin-top: 300px;
+    padding: 15px;
+    background-color: black;
+    text-shadow: 0px 1px rgba(255, 255, 255, 0.2);
 }
