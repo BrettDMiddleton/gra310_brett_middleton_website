@@ -8,5 +8,6 @@ class LocationsController < ApplicationController
         lng: location.longitude#,
         # infoWindow: { content: render_to_string(partial: "/flats/map_box", locals: { flat: flat }) }
       }
+    end
   end
 end
