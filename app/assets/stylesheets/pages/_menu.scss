@@ -1,0 +1,30 @@
+.menu-items {
+  display: flex;
+  margin-left: -50px;
+}
+
+.menu-items ul  li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: black;
+  border-radius: 0px 30px 30px 0px;
+  opacity: 0.6;
+  margin: 10px;
+  padding: 15px 40px;
+  min-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-thumb {
+  border-radius: 50px;
+  width: 125px;
+  opacity: 1;
+  height: 125px;
+  border: 2px solid black ;
+}
+
+.menu-banner-content h1 {
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
